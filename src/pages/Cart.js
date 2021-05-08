@@ -1,6 +1,5 @@
 import BreadCrumb from "components/BreadCrumb";
-import ShippingDetails from "parts/Cart/ShippingDetails";
-import ShoppingCart from "parts/Cart/ShoppingCart";
+import Shopping from "parts/Cart/Shopping";
 import Footer from "parts/Footer";
 import Header from "parts/Header";
 import Sitemap from "parts/Sitemap";
@@ -16,15 +15,7 @@ const Cart = () => {
         ]}
       />
 
-      <section class="md:py-16">
-        <div class="container mx-auto px-4">
-          <div class="flex -mx-4 flex-wrap">
-            <ShoppingCart />
-            <ShippingDetails />
-          </div>
-        </div>
-      </section>
-
+      <Shopping />
       <Sitemap />
       <Footer />
     </>
