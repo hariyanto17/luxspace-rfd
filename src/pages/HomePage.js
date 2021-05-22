@@ -6,9 +6,11 @@ import BrowseRoom from "parts/HomePage/BrowseRoom";
 import JustArrived from "parts/HomePage/JustArrived";
 import Sitemap from "parts/Sitemap";
 import useScrollAnchor from "helpers/hooks/useScrollAnchor";
+import useModalDom from "helpers/hooks/useModalDom";
 
 const HomePage = () => {
   useScrollAnchor();
+  useModalDom();
 
   return (
     <>
